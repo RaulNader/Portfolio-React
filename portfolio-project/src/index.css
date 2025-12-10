@@ -1,0 +1,182 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+/*? ///////////////////////////////////////////////////////////// */
+/** ------- Typography (Global Text Styles) ------- **/
+.text-header {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.text-description {
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.line {
+  height: 4px;
+  width: 80px;
+  background-color: #ecf0f1 !important;
+  display: inline-block;
+  margin: 0 20px 2px 20px;
+}
+/** ------- Navbar-Section ------- **/
+.main-nav {
+  background-color: #2c3e50;
+  transition: padding 0.4s ease;
+}
+
+.main-nav .nav-link {
+  color: white !important;
+  margin-left: 20px;
+  font-weight: bolder !important;
+}
+.nav-link.active {
+  background-color: #1abc9c;
+  border-radius: 7px;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bolder !important;
+  font-size: 33px !important;
+}
+/*? ///////////////////////////////////////////////////////////// */
+/** --------- Home-Section --------- */
+.home-section {
+  padding-top: 280px;
+  padding-bottom: 200px;
+  background-color: #1abc9c !important;
+}
+
+.avatar-img img {
+  width: 250px;
+  padding-bottom: 40px;
+}
+/*? ///////////////////////////////////////////////////////////// */
+/** ------- About-Section ------- **/
+.about-section {
+  background-color: #1abc9c;
+  padding: 365px;
+}
+/*? ///////////////////////////////////////////////////////////// */
+/** ------- Portofilio-Section & Contact-Section ------- **/
+.portfolio-section {
+  padding: 140px;
+  margin-bottom: -70px;
+}
+
+.portfolio-section .text-header,
+.contact-us .text-header {
+  color: #212529;
+}
+.portfolio-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-section .line,
+.contact-us .line {
+  background-color: #212529 !important;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.layer:hover {
+  background-color: #1abc9ce6;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.6s opacity;
+}
+/*? ///////////////////////////////////////////////////////////// */
+/** ------- Contact-us Section ------- **/
+.contact-us {
+  padding: 140px;
+}
+
+.styled-input {
+  width: 100%;
+  padding: 0px 0px 15px 10px;
+  border: none;
+  border-bottom: 2px solid #e0e0e0;
+  outline: none;
+  font-size: 16px;
+  color: #2c3e50;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 50px;
+}
+.btn {
+  background-color: #1abc9c !important;
+  display: flex !important;
+}
+
+/*? ///////////////////////////////////////////////////////////// */
+/** ------- Footer-Section ------- **/
+.footer-section {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 90px;
+  margin: 0;
+}
+.card h3 {
+  font-size: 30px;
+  font-weight: 500 t;
+}
+
+.card {
+  --bs-card-border-color: none !important;
+  --bs-card-bg: transparent !important;
+  color: #fff !important;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  width: auto !important;
+}
+.last-section {
+  background-color: #1a252f;
+  padding-top: 10px;
+}
+
+.last-section p {
+  margin: 0;
+  padding: 10px 0 20px 0;
+}
