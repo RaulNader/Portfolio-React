@@ -1,6 +1,6 @@
 # React Portfolio Starter Project
 
-This is a React portfolio starter built with Vite. It includes a basic multi-section portfolio website structure so you can quickly customize and deploy your personal portfolio.
+This is a React portfolio starter built with Vite and Bootstrap (React-Bootstrap). It includes a basic multi-section portfolio website structure so you can quickly customize and deploy your personal portfolio.
 
 ## What’s Included
 
@@ -55,7 +55,14 @@ Then deploy the `dist/` folder.
 
 - Replace text and images in `src/Components/*`
 - Add your own projects in `Portfolio.jsx`
-- Update styling in `App.css` and `index.css`
+- Update styling in `App.css` and `index.css` or Bootstrap classes
+
+## Tech Stack
+
+- React + Vite
+- Bootstrap + React-Bootstrap
+- Font Awesome icons
+- React Router
 
 ---
 
