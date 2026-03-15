@@ -1,69 +1,16 @@
-# React Portfolio Starter Project
+# React + Vite
 
-This is a React portfolio starter built with Vite and Bootstrap (React-Bootstrap). It includes a basic multi-section portfolio website structure so you can quickly customize and deploy your personal portfolio.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What’s Included
+Currently, two official plugins are available:
 
-- **Home Section** with hero banner and call-to-action
-- **About Section** with skills/experience summary
-- **Portfolio Section** for project cards
-- **Contact Section** with form or contact links
-- **Responsive Navbar** and layout component
-- **Footer**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Project Structure
+## React Compiler
 
-```
-portfolio-project/
-  src/
-    Components/
-      About/
-      Contact/
-      Footer/
-      Home/
-      Layout/
-      Navbar/
-      Portfolio/
-    App.jsx
-    index.css
-    main.jsx
-  public/
-  package.json
-  vite.config.js
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Run Locally
+## Expanding the ESLint configuration
 
-```bash
-git clone <YOUR-REPO-URL>
-cd Portfolio-React/portfolio-project
-npm install
-npm run dev
-```
-
-## Deploy
-
-This project works well on GitHub Pages, Netlify, or Vercel. Build with:
-
-```bash
-npm run build
-```
-
-Then deploy the `dist/` folder.
-
-## Customize
-
-- Replace text and images in `src/Components/*`
-- Add your own projects in `Portfolio.jsx`
-- Update styling in `App.css` and `index.css` or Bootstrap classes
-
-## Tech Stack
-
-- React + Vite
-- Bootstrap + React-Bootstrap
-- Font Awesome icons
-- React Router
-
----
-
-Made as a starter portfolio template to quickly launch your personal site.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
